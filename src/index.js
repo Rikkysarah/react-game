@@ -147,7 +147,7 @@ function Square(props) {
     }
     return null;
   }
-  
+  module.exports =  calculateWinner
   
   ReactDOM.render(
     <Game />,
